@@ -28,7 +28,7 @@ async function sendFormData() {
   const time = getFormattedTime();
 
   const formData = new FormData();
-  formData.append("sheetName", "Lead");
+  formData.append("sheetName", "new_leads");
   formData.append("Telefon raqam", formDataObj.TelefonRaqam);
   formData.append("Royhatdan o'tgan vaqti", `${date}-${time}`);
 
