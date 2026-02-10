@@ -1,5 +1,5 @@
 const SHEET_URL =
-  "https://script.google.com/macros/s/AKfycbzj5CNPAy9wW3ELFOx-RP_UB8N0sgv8rStJYMAEn9lRtZijvT0pwxdKVgFalZrlXlX9hw/exec";
+  "https://script.google.com/macros/s/AKfycbxEwt5ATpFJEFmUC2LM-HsSe-kuSBJc8DHi5eAg228b0MqsA9lQwn4tFdr05YA97xDx/exec";
 
 // ✅ Sana formatlash: 11-08-2025
 function getFormattedDate() {
@@ -28,7 +28,7 @@ async function sendFormData() {
   const time = getFormattedTime();
 
   const formData = new FormData();
-  formData.append("sheetName", "new_leads");
+  formData.append("sheetName", "Lead");
   formData.append("Telefon raqam", formDataObj.TelefonRaqam);
   formData.append("Royhatdan o'tgan vaqti", `${date}-${time}`);
 
